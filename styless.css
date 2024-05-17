@@ -1,0 +1,90 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: background-color 0.5s ease; /* Efecto de deslizamiento suave */
+}
+
+/* Logo o título */
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Enlaces de navegación */
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+    color: #e25651; /* Cambia el color al pasar el mouse */
+}
+/* styles.css */
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    flex-direction: column; /* Barra a la izquierda */
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Letras blancas */
+    padding: 1rem;
+    transition: transform 0.5s ease; /* Efecto de ampliación */
+    text-decoration: none;
+}
+
+/* Enlaces de navegación */
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+/* Media query para pantallas más grandes */
+@media screen and (min-width: 768px) {
+    .navbar {
+        flex-direction: row; /* Vuelve a horizontal en pantallas grandes */
+        justify-content: space-between; /* Espacio entre elementos */
+        align-items: center;
+    }
+}
+.Bienvenido{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.redes1{
+    font-size: 20PX;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
